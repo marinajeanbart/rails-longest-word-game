@@ -1,5 +1,5 @@
 <h1>Welcome</h1>
-<%= @letters %>
+<%= @letters.join(" ") %>
   <form action="/score" method="post">
     <input type="text" name="word" label="What is your longest word you can find?">
 <!--     <input type="hidden" name="letters" value=<%= @letters.join(",")%>>
